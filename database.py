@@ -1,12 +1,16 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from get_settings import settings
 
-SQLALCHEMY_URL = 'sqlite:///./sql_app.db'
+host = settings.app_db__host
+user = settings.app_db__user
+password = settings.app_db__password
 
-engine = create_engine(SQLALCHEMY_URL, connect_args={"check_same_thread": False})
+SQLALCHEMY_URL = f'postgresql+psycopg2://{user}:{password}@{host}/app'
+
+engine = create_engine(SQLALCHEMY_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
-
 
 def get_db():
     db = SessionLocal()
