@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0d3582-d30a-494b-b63a-5cf85bada575" name="Changes" comment="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_" />
+    <list default="true" id="dd0d3582-d30a-494b-b63a-5cf85bada575" name="Changes" comment="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -35,12 +40,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.database.executor": "Run",
+    "Python.env_load.executor": "Run",
+    "Python.get_settings.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.run_uvicorn.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Hekysei/Desktop/FastApi_task1/main.py",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +57,29 @@
       <recent name="C:\Users\Hekysei\Desktop\FastApi_task1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run_uvicorn">
+    <configuration name="get_settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastApi_task1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Hekysei\Desktop\FastApi_task1\get_settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FastApi_task1" />
       <option name="ENV_FILES" value="" />
@@ -72,6 +103,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_uvicorn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastApi_task1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Hekysei\Desktop\FastApi_task1\run_uvicorn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.get_settings" />
+      <item itemvalue="Python.run_uvicorn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_uvicorn" />
+        <item itemvalue="Python.get_settings" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +193,39 @@
       <option name="project" value="LOCAL" />
       <updated>1731568377976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_">
+      <option name="closed" value="true" />
+      <created>1731585226165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585226165</updated>
+    </task>
+    <task id="LOCAL-00007" summary="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_">
+      <option name="closed" value="true" />
+      <created>1731585238534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585238534</updated>
+    </task>
+    <task id="LOCAL-00008" summary="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_">
+      <option name="closed" value="true" />
+      <created>1731585296140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585296140</updated>
+    </task>
+    <task id="LOCAL-00009" summary="+ models&#10;+ dto&#10;+ services&#10;+ routers&#10;_ready_to_start_">
+      <option name="closed" value="true" />
+      <created>1731585312768</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585312768</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
